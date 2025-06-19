@@ -23,13 +23,12 @@ body{
   color: #555;
 }
 .info {
-  display: flex;
-  flex-wrap: wrap;
+  
   padding: 2px;
   background-color: white;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  
+  gap: 2px;
 }
 .info img{
     border-radius: 8px;
@@ -101,9 +100,7 @@ info p {
   padding: 1rem;
 }
 @media (max-width: 768px) {
-  .info {
-    flex-direction: column;
-  }
+  
 
   .info img {
     width: 80%;
